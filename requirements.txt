@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+requests
+
+numpy
+scipy
+librosa
+soundfile
+
+torch
+torchaudio
