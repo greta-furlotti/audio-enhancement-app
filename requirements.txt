@@ -10,3 +10,7 @@ soundfile
 
 torch
 torchaudio
+
+tqdm
+pesq
+pystoi
