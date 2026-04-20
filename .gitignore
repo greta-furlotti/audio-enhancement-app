@@ -137,3 +137,6 @@ mlruns/
 lightning_logs/
 checkpoints/
 *.ckpt
+
+# Generated audio
+data/processed/voicebank_demand/test/enhanced/

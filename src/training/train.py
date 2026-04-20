@@ -136,7 +136,7 @@ def main():
     print(f"Model parameters: {total_params:,}")
 
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=5, factor=0.5, verbose=True)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=5, factor=0.5)
     criterion = SpectrogramLoss()
 
     # ── Training loop ─────────────────────────────────────────────────────────

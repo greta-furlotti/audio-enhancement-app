@@ -9,8 +9,12 @@ librosa
 soundfile
 
 torch
-torchaudio
+#torchaudio
+torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 tqdm
 pesq
 pystoi
+
+openpyxl
+pandas
