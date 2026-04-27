@@ -1,0 +1,20 @@
+fastapi
+uvicorn
+streamlit
+requests
+
+numpy
+scipy
+librosa
+soundfile
+
+torch
+#torchaudio
+torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+tqdm
+pesq
+pystoi
+
+openpyxl
+pandas
